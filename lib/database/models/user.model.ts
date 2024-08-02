@@ -14,4 +14,6 @@ const UserSchema = new Schema ({
 
 const User = models?.User || model('User', UserSchema);
 
+module.exports = {User}
+
 export default User;
